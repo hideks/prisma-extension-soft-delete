@@ -13,7 +13,7 @@
   "types": "dist/index.d.ts",
   "license": "UNLICENSED",
   "scripts": {
-    "dev": "ts-node --transpile-only index.ts",
+    "dev": "ts-node --transpile-only script.ts",
     "seed": "ts-node prisma/seed.ts",
     "build": "tsc"
   },
